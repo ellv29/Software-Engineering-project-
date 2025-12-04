@@ -10,6 +10,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 
+
 public class HudoorSystem {
     //done by Waad Alshehri , ID: 2306782
     private static final String ATTENDANCE_FILE = "Attendance.csv";
@@ -113,6 +114,7 @@ public class HudoorSystem {
             markAtRiskIfNeeded(studentId, classId);
         }
     }
+    
     //done by Leena Tayeb
     public float computeAbsencePercent(String studentId, String classId) {
         List<AttendanceRecord> records = attendanceByStudent.get(studentId);
@@ -134,6 +136,7 @@ public class HudoorSystem {
 
         return percent;
     }
+    
     //done by Hala Mehyar
     public boolean markAtRiskIfNeeded(String studentId, String classId) {
         Student student = studentsById.get(studentId);
@@ -261,6 +264,7 @@ public class HudoorSystem {
         System.out.println("AUDIT: " + action + " by " + userId + " | " + details);
     }
 }
+
 
 
 
