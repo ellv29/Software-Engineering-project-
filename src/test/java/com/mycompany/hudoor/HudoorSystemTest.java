@@ -98,7 +98,7 @@ public class HudoorSystemTest {
         assertEquals(msg, p2.getLastMessage());
     }
 
-    //done by Alya Jaad
+    //done by Alya Jaad , ID:2308524
     @Test
     public void testGenerateReport() {
         Map<String, AttendanceRecord.Status> map1 = new HashMap<>();
@@ -115,3 +115,4 @@ public class HudoorSystemTest {
         assertEquals("S2", absentStudents.get(0).getStudentId());
     }
 }
+
