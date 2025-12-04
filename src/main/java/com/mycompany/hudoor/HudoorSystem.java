@@ -199,7 +199,7 @@ public class HudoorSystem {
 
         notification.sendSMS(p.getPhoneNum());
     }
-    //done by Alya Jaad
+    //done by Alya Jaad , ID : 2308524
     public Report generateReport(String classId, LocalDate from, LocalDate to) {
         SchoolClass sc = classesById.get(classId);
 
@@ -261,6 +261,7 @@ public class HudoorSystem {
         System.out.println("AUDIT: " + action + " by " + userId + " | " + details);
     }
 }
+
 
 
 
