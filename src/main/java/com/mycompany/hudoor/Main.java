@@ -1,12 +1,14 @@
 //done by Leena Tayeb
 package com.mycompany.hudoor;
 
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.HashMap;
+
 
 public class Main {
 
@@ -30,6 +32,7 @@ public class Main {
         boolean loggedIn = false;
         String teacherId = null;
 
+        
         for (int attempts = 0; attempts < 3 && !loggedIn; attempts++) {
             System.out.print("Enter Teacher ID: ");
             teacherId = in.nextLine().trim();
