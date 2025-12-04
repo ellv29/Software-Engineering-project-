@@ -1,6 +1,7 @@
 //done by Leena Tayeb
 package com.mycompany.hudoor;
 
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -15,6 +16,7 @@ public class Report {
     private LocalDate toDate;
     private String adminId;
 
+    
     private List<Student> absentStudents;
 
     private Map<String, Float> absencePercentByStudent;
@@ -70,6 +72,7 @@ public class Report {
         return absencePercentByStudent;
     }
 }
+
 
 
 
