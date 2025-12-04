@@ -81,7 +81,7 @@ public class HudoorSystem {
     public SchoolClass getClassById(String classId) { return classesById.get(classId); }
     public Collection<SchoolClass> getAllClasses() { return classesById.values(); }
 
-    //done by Lama alghamdi
+    //done by Lama alghamdi ID:2308040
     public boolean verifyUser(String userId, String password) {
         Teacher teacher = teachersById.get(userId);
         if (teacher == null) return false;
@@ -261,5 +261,6 @@ public class HudoorSystem {
         System.out.println("AUDIT: " + action + " by " + userId + " | " + details);
     }
 }
+
 
 
